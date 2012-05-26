@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "bootstrap-responsive";
 
 /* mixins, variables, etc. */
 
@@ -51,10 +52,15 @@ h2 {
   color: $grayLight;
 }
 
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+h3 {
+  line-height: 27px;
+  font-size: 18px;
 }
+
+p {
+  font-size: 1em;
+  line-height: 1.3em;
+} 
 
 
 /* header */
@@ -97,6 +103,31 @@ footer {
     li {
       float: left;
       margin-left: 10px;
+    }
+  }
+}
+
+/* Hero Unit - mods by Simon, no book! */
+
+.hero-unit {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: hsla(202, 75%, 50%, 0.6);
+  background-repeat: no-repeat; 
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  h1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: 1;
+     color: white;
+    letter-spacing: 1px;
+  p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 27px;
+    color: inherit;
     }
   }
 }
